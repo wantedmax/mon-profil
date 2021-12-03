@@ -1,0 +1,96 @@
+@import url(components/icon.css);
+
+h1 {
+	font-size: 50px;
+	color: black;
+	text-align: center;
+	font-family: Bebas Neue;
+}
+
+
+h2 {
+	color: red;
+	font-family: Bitter;
+}
+
+
+li,p {
+	font-family: Bitter;
+	font-weight: bold;
+}
+
+
+.présentation {
+	color: black;
+	text-align: center;
+	border: 2px solid black;
+  margin: 54px;
+  border-radius: 8px;
+}
+
+
+img {
+	width: 230px;
+	border-radius: 200px;
+}
+
+
+.container {
+	border: solid red 2px;
+	margin: 5px;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+
+.containerflexbox {
+	border: solid red 2px;
+	margin: 5px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	border-radius: 8px;
+}
+
+
+.container3 {
+	border: solid red 2px;
+	margin: 5px;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.container4 {
+	border: solid red 2px;
+	margin: 5px;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+
+.container5 {
+	border: solid red 2px;
+	margin: 5px;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+
+.photoflexbox {
+	display: flex;
+	justify-content: center;
+}
+
+
+@media (max-device-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .sect_1, .real {
+  	display: block;
+  }
+  .xl {
+  	font-size: 1.2em;
+  	padding: 10px;
+  }
+}
+
